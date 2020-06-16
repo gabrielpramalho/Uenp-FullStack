@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    margin-top: 14px;
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+}
+
+#logo-cct{
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 14px;
+}
+
+#logo-uenp{
+    max-width: 300px;
+}
+
+#menu ul{
+
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #183883;
+}
+
+#menu li{
+    float: left;
+}
+
+#menu a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+#menu li.buttom-dark{
+    float: right;
+    margin-right: 14px;
+}
+
+li a:hover{
+    background-color: #142f6e;
+    border-radius: 8px;
+}
+
+main{
+    margin: 24px;
+}
+
+main h2{
+    text-align: center;
+}
+
+main p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+
+
