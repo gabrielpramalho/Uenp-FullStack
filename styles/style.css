@@ -1,7 +1,9 @@
 body{
     margin: 0;
     padding: 0;
+    -webkit-font-smoothing: antialiased;
     background-color: #f1f1f1;
+    color: black;
 }
 
 html{
@@ -22,10 +24,10 @@ header{
 
 #logo-uenp{
     max-width: 300px;
+    margin-left: 14pxx;
 }
 
 #menu ul{
-
     list-style-type: none;
     overflow: hidden;
     background-color: #183883;
@@ -33,19 +35,27 @@ header{
 
 #menu li{
     float: left;
+    display: flex;
+    align-items: center;
 }
 
 #menu a{
-    display: block;
+    display: flex;
+    align-items: center;
     color: white;
     text-align: center;
     padding: 20px 16px;
     text-decoration: none;
+    height: 20px;
 }
 
 #menu li.buttom-dark{
     float: right;
     margin-right: 14px;
+}
+
+#menu li.buttom-dark span{
+    margin-left: 4px;
 }
 
 li a:hover{
@@ -61,11 +71,29 @@ main h2{
     text-align: center;
 }
 
-main p{
+main{
     font-size: 14px;
     text-align: justify;
+    margin: 14px 280px;
+    padding: 45px 60px;
+    background-color: #e6e6e6;
+    border-radius: 8px;
 }
 
+/* .content p{
+    margin: 14px 280px;
+    padding: 45px 60px;
+    background-color: #e6e6e6;
+    border-radius: 8px;
+} */
 
+.dark-mode {
+    background-color: #181818;
+}
+
+.dark-mode main{
+    background-color: #202020;
+    color: white;
+}
 
 
