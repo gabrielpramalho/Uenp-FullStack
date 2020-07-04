@@ -19,12 +19,12 @@ header{
 #logo-cct{
     max-width: 150px;
     max-height: 150px;
-    margin-right: 14px;
+    margin-right: 30px;
 }
 
 #logo-uenp{
     max-width: 300px;
-    margin-left: 14pxx;
+    margin-left: 30px;
 }
 
 #menu ul{
@@ -36,10 +36,11 @@ header{
 #menu li{
     float: left;
     display: flex;
+    flex: 1;
     align-items: center;
 }
 
-#menu a{
+#menu li a{
     display: flex;
     align-items: center;
     color: white;
@@ -58,42 +59,49 @@ header{
     margin-left: 4px;
 }
 
-li a:hover{
+#menu li a:hover{
     background-color: #142f6e;
     border-radius: 8px;
 }
 
-main{
-    margin: 24px;
+
+.rodape{
+    background-color: #183883;
+    box-shadow: 0 1px 1px 0 #0000.12;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
 }
 
-main h2{
-    text-align: center;
-}
-
-main{
-    font-size: 14px;
-    text-align: justify;
-    margin: 14px 280px;
-    padding: 45px 60px;
-    background-color: #e6e6e6;
-    border-radius: 8px;
-}
-
-/* .content p{
-    margin: 14px 280px;
-    padding: 45px 60px;
-    background-color: #e6e6e6;
-    border-radius: 8px;
-} */
-
-.dark-mode {
-    background-color: #181818;
-}
-
-.dark-mode main{
-    background-color: #202020;
+.rodape .info p{
     color: white;
+    font-size: 14px;
+    margin: 0;
 }
 
+.rodape .redes-sociais{
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+}
 
+.rodape .redes-sociais a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+    transition:all .25s;
+}
+
+.rodape .redes-sociais a:hover{
+    transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+}
